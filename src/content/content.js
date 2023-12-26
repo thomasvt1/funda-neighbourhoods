@@ -16,6 +16,7 @@ if (zipCode) {
     }
 
     if (error) {
+      console.error(error);
       addGenericErrorMessage(badgesContainerElement);
       addSettingsButton(badgesContainerElement);
     } else {
